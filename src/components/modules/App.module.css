@@ -1,0 +1,10 @@
+.container{
+    margin: auto;
+    padding-top: 10vw;
+    width: 100vw;
+    height: 100vh;
+}
+.normal{
+    margin: auto;
+    background: -moz-linear-gradient(135deg,#ebb, #fff);
+}

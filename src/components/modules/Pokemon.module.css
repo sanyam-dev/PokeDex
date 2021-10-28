@@ -1,0 +1,15 @@
+.img{
+	width: 9rem;
+}
+
+.card{
+	transition: all 0.4s;
+	padding: 2rem;
+	text-justify: center;
+}
+
+.card:hover{
+	box-shadow : 10px 10px 10px 10px grey;
+	z-index: 1;
+}
+

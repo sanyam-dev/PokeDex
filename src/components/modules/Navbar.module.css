@@ -1,0 +1,43 @@
+.bar{
+    position: fixed;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    height: 5vh;
+    background-color: rgb(255, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.type{
+
+    width: 30vw;
+    @media screen and (min-width: 600px){
+        width: 100vw;
+    }
+
+}
+.button{
+    background-color: black;
+    display: inline-block;
+    font-weight: 400;
+    /* line-height: 1.5; */
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    padding: 0.24rem 0.24rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
